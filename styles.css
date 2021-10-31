@@ -184,7 +184,6 @@ p {
 .alternativestitle{
   width: 50%
 }
-
 img{
   	width:25%;
   	border: 0;
@@ -201,17 +200,17 @@ img{
   display: flex;
   list-style-type: none;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: left;
   background-color: #273B09;
-  width: 50%;
+  width: 60%;
 }
 .proscontainer {
   display:block;
 }
 .proscontainer ul{
   margin: 0px;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   list-style-type: none;
   flex-direction: column;
@@ -228,7 +227,7 @@ img{
 }
 .conscontainer ul{
   margin: 0px;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   list-style-type: none;
   flex-direction: column;
