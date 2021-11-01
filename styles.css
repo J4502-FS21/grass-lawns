@@ -270,11 +270,15 @@ img{
   p {
     margin: 5px;
   }
-
+  img {
+   width: 80%
+     }
   .nav {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+
   }
 }
