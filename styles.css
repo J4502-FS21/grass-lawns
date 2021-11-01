@@ -183,12 +183,12 @@ p {
 }
 .alternativestitle{
   width: 50%
+  justify: center;
 }
 img{
   	width:25%;
   	border: 0;
   	outline: 0;
-    transform: translate(-100%,0px);
     margin: none;
 }
 .mosscontainer {
@@ -200,17 +200,18 @@ img{
   display: flex;
   list-style-type: none;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: left;
   background-color: #273B09;
-  width: 60%;
+  width: 100%;
 }
 .proscontainer {
   display:block;
 }
 .proscontainer ul{
-  margin: 0px;
-  padding: 10px;
+  margin: 10px;
+  padding-left:10px;
+  padding-right:10px;
   display: flex;
   list-style-type: none;
   flex-direction: column;
@@ -226,8 +227,9 @@ img{
   display:block;
 }
 .conscontainer ul{
-  margin: 0px;
-  padding: 10px;
+  margin: 10px;
+  padding-left:10px;
+  padding-right:10px;
   display: flex;
   list-style-type: none;
   flex-direction: column;
@@ -243,3 +245,32 @@ img{
   list-style: none;
   font-weight: bold;
 }
+@media (max-width: 850px) {
+
+    li {
+      width: 50%;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      width: 100%;
+    }
+
+    #menu_trigger {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    #menu_nav {
+      display: none;
+    }
+  }
