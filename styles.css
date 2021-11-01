@@ -250,6 +250,9 @@ img{
   h1 {
     font-size: 2em;
   }
+  img {
+   width: 80%;
+     }
 }
 
 
@@ -271,7 +274,7 @@ img{
     margin: 5px;
   }
   img {
-   width: 80%
+   width: 80%;
      }
   .nav {
     display: flex;
