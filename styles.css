@@ -27,6 +27,9 @@ h1 {
 p {
 	font-family: 'Open Sans', sans-serif;
 }
+figcaption {
+  Font-size: 1rem;
+}
 .navcontainer nav {
   background: #002400;
   display: block;
@@ -250,9 +253,6 @@ img{
   h1 {
     font-size: 2em;
   }
-  img {
-   width: 80%;
-     }
 }
 
 
@@ -273,9 +273,6 @@ img{
   p {
     margin: 5px;
   }
-  img {
-   width: 180%;
-     }
   .nav {
     display: flex;
     flex-direction: column;
