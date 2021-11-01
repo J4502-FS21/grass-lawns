@@ -262,15 +262,6 @@ img{
     li {
       width: 100%;
     }
-
-    #menu_trigger {
-      display: block;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-    }
-
-    #menu_nav {
-      display: none;
+    
     }
   }
