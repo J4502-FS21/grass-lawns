@@ -245,40 +245,28 @@ img{
   list-style: none;
   font-weight: bold;
 }
-@media screen and (max-width: 699px) {
-  h1 {
-    font-size: 2em;
+@media (min-width: 425px) {
+
+.iconList li {
+  width: 50%;
+}
+
+}
+
+@media (min-width: 655px) {
+  nav {
+    height: 3rem;
+  }
+  nav li {
+    height: 100%;
+  }
+  nav li, .bigNumberList li, .iconList li {
+    width: 33.333333%;
   }
 }
 
+@media (min-width: 850px) {
 
-@media screen and (max-width: 599px) {
-
-  h1 {
-    font-size: 2em;
-  }
-
-  h2 {
-    margin: 10px;
-  }
-
-  h3 {
-    margin: 10px;
-  }
-
-  p {
-    margin: 5px;
-    font-size: 1em;
-  }
-  img {
-    width: 80%;
-  }
-
-  .nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
+.iconList li {
+  width: 20%;
 }
