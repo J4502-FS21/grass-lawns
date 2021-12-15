@@ -6,7 +6,6 @@ body {
   max-width: 900px;
   margin: auto;
   margin-top: 3rem;
-  font-weight: 100 !important;
 }
 ul {
 	list-style-type: none;
@@ -199,61 +198,6 @@ figcaption {
 .alternativestitle{
   width: 50%
   justify: center;
-}
-
-.mosscontainer {
-  display:block;
-}
-.mosscontainer dl{
-  margin: 0px;
-  padding: 15px;
-  display: flex;
-  list-style-type: none;
-  flex-direction: row;
-  justify-content: center;
-  align-items: left;
-  background-color: #273B09;
-  width: 100%;
-}
-.proscontainer {
-  display:block;
-}
-.proscontainer ul{
-  margin: 10px;
-  padding-left:10px;
-  padding-right:10px;
-  display: flex;
-  list-style-type: none;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: left;
-  align-content: left;
-  background-color: #273B09;
-  width: 100%;
-  color: white;
-  text-align: left;
-}
-.conscontainer {
-  display:block;
-}
-.conscontainer ul{
-  margin: 10px;
-  padding-left:10px;
-  padding-right:10px;
-  display: flex;
-  list-style-type: none;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: left;
-  align-content: left;
-  background-color: #273B09;
-  width: 100%;
-  color: white;
-  text-align: left;
-}
-.prostitle li{
-  list-style: none;
-  font-weight: bold;
 }
 
 .question {
