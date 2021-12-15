@@ -11,8 +11,9 @@
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Source+Serif+Pro&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="styles.css">
+ <script src="main.js"defer></script>
  </head>
-<body>
+<body class="alternativesgallery">
   <h1 id="title">ALL ABOUT GRASS LAWNS</h1>
   <section>
   <div class="navcontainer">
@@ -26,8 +27,59 @@
    </nav>
   </div>
   </section>
-  <section>
-    <div>
-      <h2 class=topofpagetext>Test your knowledge</h2>
-      <h4>Java Script quiiz coming reallllll soon I promise :)</h4>
-</section>
+  <fieldset class="question">
+     <h3>What is the most irrigated crop in the United States?</h3>
+     <div><input id="corn" type="radio" name="irrigated" value="corn">
+     <label for="corn">Corn</label></div>
+
+     <div><input id="wheat" type="radio" name="irrigated" value="wheat">
+     <label for="wheat">Wheat</label></div>
+
+     <div><input id="grass" type="radio" name="irrigated" value="grass">
+     <label for="grass">Grass</label></div>
+  </fieldset>
+
+  <fieldset class="question">
+     <h3>How many millon pounds of pesticides are used each year to maintain grass?</h3>
+     <div><input id="70" type="radio" name="pesticides" value="70">
+     <label for="70">70 million</label></div>
+
+     <div><input id="10" type="radio" name="pesticides" value="10">
+     <label for="10">10 million</label></div>
+
+     <div><input id="50" type="radio" name="pesticides" value="50">
+     <label for="50">50 million</label></div>
+  </fieldset>
+
+  <fieldset class="question">
+     <h3>Who invented the lawn mower?</h3>
+     <div><input id="Blade" type="radio" name="invented" value="Blade">
+     <label for="Blade">John Blade</label></div>
+
+     <div><input id="Bradford" type="radio" name="invented" value="Bradford">
+     <label for="Bradford">William Bradford</label></div>
+
+     <div><input id="Budding" type="radio" name="invented" value="Budding">
+     <label for="Budding">Edward Budding</label></div>
+  </fieldset>
+
+  <fieldset class="question">
+     <h3>What are alternatives to grass lawns?</h3>
+     <div><input id="Moss" type="radio" name="alternatives" value="Moss">
+     <label for="Moss">Moss</label></div>
+
+     <div><input id="Thyme" type="radio" name="alternatives" value="Thyme">
+     <label for="Thyme">Red Creeping Thyme</label></div>
+
+     <div><input id="Charlie" type="radio" name="alternatives" value="Charlie">
+     <label for="Charlie">Creeping Charlie</label></div>
+
+     <div><input id="All" type="radio" name="alternatives" value="All">
+     <label for="All">All of the above</label></div>
+  </fieldset>
+
+<button class="shadow" id="submit">Submit</button>
+
+<p class="answers" id="answerTally"></p>
+  </body>
+  </html>

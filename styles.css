@@ -1,11 +1,12 @@
 body {
-  background: #7B904B;
+  background:#92AA5A;
 	text-align: center;
   font-family: 'Open Sans', sans-serif;
   width: 90%;
   max-width: 900px;
   margin: auto;
   margin-top: 3rem;
+  font-weight: 100 !important;
 }
 ul {
 	list-style-type: none;
@@ -17,19 +18,33 @@ color: #002400;
 font-weight: bold;
 }
 p {
- text-align: center
-  padding: 10px
+ text-align: center;
+  padding: 10px;
 }
 h1 {
 	font-family: 'Open Sans', sans-serif;
-  color: white
+  color: white;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
 }
+img {
+  width: 100%;
+  max-width: 500px;
+}
 figcaption {
   Font-size: .7rem;
 }
+.example{
+  display: none;
+}
+
+.button-group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .navcontainer nav {
   background: #002400;
   display: block;
@@ -58,21 +73,18 @@ figcaption {
   font-style:normal;
   text-transform: inherit;
   color: white;
-  font-weight: 600;
   font-size: 1em;
 }
 
 .navcontainer a:hover {
   color: #FFFFFF;
 }
-{
-  box-sizing: border-box;
-}
+
 * {
   box-sizing: border-box;
 }
 .firstpagebody{
-  background:white;
+  background: white;
   padding: 20px;
   margin-top: 15px;
 }
@@ -188,12 +200,7 @@ figcaption {
   width: 50%
   justify: center;
 }
-img{
-  	width:25%;
-  	border: 0;
-  	outline: 0;
-    margin: none;
-}
+
 .mosscontainer {
   display:block;
 }
@@ -248,6 +255,48 @@ img{
   list-style: none;
   font-weight: bold;
 }
+
+.question {
+  margin: 2rem;
+  box-sizing: border-box;
+  border: 2px solid #002400;
+  border-radius: 15px;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+button {
+  margin: 2rem auto;
+  display: block;
+  color: #002400;
+  background: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  cursor: hand;
+}
+.button-group button {
+
+}
+.shadow {
+  -webkit-box-shadow: 3px 3px 3px 3px #002400;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 3px 3px #002400;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 3px 3px #002400;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.answers {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.answers span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
 
 @media screen and (max-width: 699px) {
   h1 {
